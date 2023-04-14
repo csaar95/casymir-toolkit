@@ -1,0 +1,1858 @@
+{
+  "app.opg_autostart": {
+    "prefix": "opg_autostart",
+    "description": [
+      "Auto-Startup Forms in OPG Application Framework",
+      ""
+    ],
+    "body": [
+      "opg_autostart()"
+    ]
+  },
+  "app.opg_casy_info_pre": {
+    "prefix": "opg_casy_info_pre",
+    "description": [
+      "Initialize info form",
+      ""
+    ],
+    "body": [
+      "opg_casy_info_pre()"
+    ]
+  },
+  "app.opg_chart_widget_pre": {
+    "prefix": "opg_chart_widget_pre",
+    "description": [
+      "OPG Chart Widget initialisation",
+      ""
+    ],
+    "body": [
+      "opg_chart_widget_pre()"
+    ]
+  },
+  "app.opg_config_passwd_check": {
+    "prefix": "opg_config_passwd_check",
+    "description": [
+      "OPG Config passwd check",
+      ""
+    ],
+    "body": [
+      "opg_config_passwd_check()"
+    ]
+  },
+  "app.opg_dash_button_pre": {
+    "prefix": "opg_dash_button_pre",
+    "description": [
+      "OPG Dash Button Widget initialisation",
+      ""
+    ],
+    "body": [
+      "opg_dash_button_pre()"
+    ]
+  },
+  "app.opg_dashboard5_fill": {
+    "prefix": "opg_dashboard5_fill",
+    "description": [
+      "Dashboard fill",
+      ""
+    ],
+    "body": [
+      "opg_dashboard5_fill()"
+    ]
+  },
+  "app.opg_dashboard5_pre": {
+    "prefix": "opg_dashboard5_pre",
+    "description": [
+      "Check whether frameObj is a placeholder",
+      ""
+    ],
+    "body": [
+      "opg_dashboard5_pre()"
+    ]
+  },
+  "app.opg_dashboard5_styles": {
+    "prefix": "opg_dashboard5_styles",
+    "description": [
+      "Query OPG5 dashboard widget style",
+      ""
+    ],
+    "body": [
+      "opg_dashboard5_styles(${1|'default','warning','error'|})"
+    ]
+  },
+  "app.opg_dashboard_fill": {
+    "prefix": "opg_dashboard_fill",
+    "description": [
+      "OPG Dashboard fill, returns boolean",
+      ""
+    ],
+    "body": [
+      "opg_dashboard_fill()"
+    ]
+  },
+  "app.opg_debug_focus_fill": {
+    "prefix": "opg_debug_focus_fill",
+    "description": [
+      "OPG Focus Debugger fill function",
+      ""
+    ],
+    "body": [
+      "opg_debug_focus_fill()"
+    ]
+  },
+  "app.opg_debug_show_table": {
+    "prefix": "opg_debug_show_table",
+    "description": [
+      "Show debug popup for lua table",
+      ""
+    ],
+    "body": [
+      "opg_debug_show_table(${1:table}${2:, ${3:name}})"
+    ]
+  },
+  "app.opg_docgen": {
+    "prefix": "opg_docgen",
+    "description": [
+      "Generate OPG Documentation Template",
+      ""
+    ],
+    "body": [
+      "opg_docgen()"
+    ]
+  },
+  "app.opg_formwalk_cancel": {
+    "prefix": "opg_formwalk_cancel",
+    "description": [
+      "OPG Formwalk cancellation handler - Execute a flow of forms",
+      ""
+    ],
+    "body": [
+      "opg_formwalk_cancel()"
+    ]
+  },
+  "app.opg_formwalk_canvas": {
+    "prefix": "opg_formwalk_canvas",
+    "description": [
+      "OPG Formwalk page list display - Hidden properties, that start with an underline '_' character, will not be applied to the object",
+      "  - `name`: Unique object name per canvas",
+      "  - `object`: Object to add",
+      "  - `properties`: Table of object properties",
+      "  - `handlers`: Table of object signal handlers",
+      ""
+    ],
+    "body": [
+      "opg_formwalk_canvas(${1:name}${2:, ${3:object}${4:, ${5:properties_table}${6:, ${7:handlers_table}}}})"
+    ]
+  },
+  "app.opg_formwalk_display": {
+    "prefix": "opg_formwalk_display",
+    "description": [
+      "OPG Formwalk page list display - Execute a flow of forms",
+      ""
+    ],
+    "body": [
+      "opg_formwalk_display()"
+    ]
+  },
+  "app.opg_formwalk_mh": {
+    "prefix": "opg_formwalk_mh",
+    "description": [
+      "OPG Formwalk message handler",
+      ""
+    ],
+    "body": [
+      "opg_formwalk_mh()"
+    ]
+  },
+  "app.opg_formwalk_post": {
+    "prefix": "opg_formwalk_post",
+    "description": [
+      "OPG Formwalk exit handler",
+      ""
+    ],
+    "body": [
+      "opg_formwalk_post()"
+    ]
+  },
+  "app.opg_formwalk_pre": {
+    "prefix": "opg_formwalk_pre",
+    "description": [
+      "OPG Formwalk initialisation - Executes a flow of forms",
+      ""
+    ],
+    "body": [
+      "opg_formwalk_pre()"
+    ]
+  },
+  "app.opg_frame_class": {
+    "prefix": "opg_frame_class",
+    "description": [
+      "Determine OPG frame display class ('desktop', 'small_mobile')",
+      ""
+    ],
+    "body": [
+      "opg_frame_class()"
+    ]
+  },
+  "app.opg_frame_logo": {
+    "prefix": "opg_frame_logo",
+    "description": [
+      "Load customer logo into OPG frame",
+      "  - `/home/kommerz/local/images/opglogoInstID.png`",
+      "  - `Installation.InstID` is defined in `/home/kommerz/local/info.lu8`",
+      ""
+    ],
+    "body": [
+      "opg_frame_logo()"
+    ]
+  },
+  "app.opg_frame_message_handler": {
+    "prefix": "opg_frame_message_handler",
+    "description": [
+      "OPG Frame message handler",
+      ""
+    ],
+    "body": [
+      "opg_frame_message_handler()"
+    ]
+  },
+  "app.opg_mobil_acc": {
+    "prefix": "opg_mobil_acc",
+    "description": [
+      "Check OPG Mobile Access",
+      ""
+    ],
+    "body": [
+      "opg_mobil_acc()"
+    ]
+  },
+  "app.opg_mobil_page_removed": {
+    "prefix": "opg_mobil_page_removed",
+    "description": [
+      "Stop OPG Mobile Application Framework",
+      ""
+    ],
+    "body": [
+      "opg_mobil_page_removed()"
+    ]
+  },
+  "app.opg_mobil_start": {
+    "prefix": "opg_mobil_start",
+    "description": [
+      "Startup OPG Mobile Application Framework",
+      ""
+    ],
+    "body": [
+      "opg_mobil_start()"
+    ]
+  },
+  "app.opg_navi_callref_clean": {
+    "prefix": "opg_navi_callref_clean",
+    "description": [
+      "Sanitize formref for Navi use",
+      ""
+    ],
+    "body": [
+      "opg_navi_callref_clean(${1:form_ref_string})"
+    ]
+  },
+  "app.opg_navi_drop": {
+    "prefix": "opg_navi_drop",
+    "description": [
+      "Navi drop handler",
+      ""
+    ],
+    "body": [
+      "opg_navi_drop()"
+    ]
+  },
+  "app.opg_navi_drop_data_delete": {
+    "prefix": "opg_navi_drop_data_delete",
+    "description": [
+      "Navi move/drop handler",
+      ""
+    ],
+    "body": [
+      "opg_navi_drop_data_delete()"
+    ]
+  },
+  "app.opg_navi_drop_data_get": {
+    "prefix": "opg_navi_drop_data_get",
+    "description": [
+      "Navi drop data handler",
+      ""
+    ],
+    "body": [
+      "opg_navi_drop_data_get()"
+    ]
+  },
+  "app.opg_navi_drop_data_recv": {
+    "prefix": "opg_navi_drop_data_recv",
+    "description": [
+      "Navi drop data handler",
+      ""
+    ],
+    "body": [
+      "opg_navi_drop_data_recv()"
+    ]
+  },
+  "app.opg_navi_drop_motion": {
+    "prefix": "opg_navi_drop_motion",
+    "description": [
+      "Navi drop motion handler",
+      ""
+    ],
+    "body": [
+      "opg_navi_drop_motion()"
+    ]
+  },
+  "app.opg_navi_fill": {
+    "prefix": "opg_navi_fill",
+    "description": [
+      "Navi fill",
+      ""
+    ],
+    "body": [
+      "opg_navi_fill()"
+    ]
+  },
+  "app.opg_navi_keypress": {
+    "prefix": "opg_navi_keypress",
+    "description": [
+      "Navi keypress handler",
+      ""
+    ],
+    "body": [
+      "opg_navi_keypress()"
+    ]
+  },
+  "app.opg_navi_message_handler": {
+    "prefix": "opg_navi_message_handler",
+    "description": [
+      "OPG Navi message handler",
+      "  - Connected to the toplevel widget `vbox1` of all Navi instances",
+      ""
+    ],
+    "body": [
+      "opg_navi_message_handler()"
+    ]
+  },
+  "app.opg_navi_pick": {
+    "prefix": "opg_navi_pick",
+    "description": [
+      "Navi pick handler",
+      ""
+    ],
+    "body": [
+      "opg_navi_pick()"
+    ]
+  },
+  "app.opg_navi_popup": {
+    "prefix": "opg_navi_popup",
+    "description": "Navi popup item activation handler",
+    "body": [
+      "opg_navi_popup()"
+    ]
+  },
+  "app.opg_navi_popup_menu": {
+    "prefix": "opg_navi_popup_menu",
+    "description": [
+      "Navi popup menu prepare",
+      ""
+    ],
+    "body": [
+      "opg_navi_popup_menu()"
+    ]
+  },
+  "app.opg_navi_pre": {
+    "prefix": "opg_navi_pre",
+    "description": [
+      "Navi realize",
+      ""
+    ],
+    "body": [
+      "opg_navi_pre()"
+    ]
+  },
+  "app.opg_navi_row_activated": {
+    "prefix": "opg_navi_row_activated",
+    "description": [
+      "Navi row activation handler",
+      ""
+    ],
+    "body": [
+      "opg_navi_row_activated()"
+    ]
+  },
+  "app.opg_navi_serialize": {
+    "prefix": "opg_navi_serialize",
+    "description": [
+      "Navi node serializer",
+      ""
+    ],
+    "body": [
+      "opg_navi_serialize(${1:node})"
+    ]
+  },
+  "app.opg_navi_unserialize": {
+    "prefix": "opg_navi_unserialize",
+    "description": [
+      "Navi node unserializer",
+      ""
+    ],
+    "body": [
+      "opg_navi_unserialize(${1:item_string})"
+    ]
+  },
+  "app.opg_recentforms_add": {
+    "prefix": "opg_recentforms_add",
+    "description": [
+      "OPG Recent message hook",
+      ""
+    ],
+    "body": [
+      "opg_recentforms_add(${1:message}, ${2:form_ref_string})"
+    ]
+  },
+  "app.opg_recentforms_fill": {
+    "prefix": "opg_recentforms_fill",
+    "description": [
+      "OPG Recent fill",
+      ""
+    ],
+    "body": [
+      "opg_recentforms_fill()"
+    ]
+  },
+  "app.opg_recentforms_initdb": {
+    "prefix": "opg_recentforms_initdb",
+    "description": [
+      "OPG Recent initialize sqlite database",
+      ""
+    ],
+    "body": [
+      "opg_recentforms_initdb()"
+    ]
+  },
+  "app.opg_recentforms_pick": {
+    "prefix": "opg_recentforms_pick",
+    "description": [
+      "OPG Recent pick handler",
+      ""
+    ],
+    "body": [
+      "opg_recentforms_pick()"
+    ]
+  },
+  "app.opg_recentforms_pre": {
+    "prefix": "opg_recentforms_pre",
+    "description": [
+      "OPG Recent realize",
+      ""
+    ],
+    "body": [
+      "opg_recentforms_pre()"
+    ]
+  },
+  "app.opg_recentforms_row_activated": {
+    "prefix": "opg_recentforms_row_activated",
+    "description": [
+      "OPG Recent row activation",
+      ""
+    ],
+    "body": [
+      "opg_recentforms_row_activated()"
+    ]
+  },
+  "app.opg_screen_print": {
+    "prefix": "opg_screen_print",
+    "description": [
+      "Takes a screenshot of the current form",
+      "  - `snapshot.png` in the user's document directory",
+      ""
+    ],
+    "body": [
+      "opg_screen_print()"
+    ]
+  },
+  "app.opg_start": {
+    "prefix": "opg_start",
+    "description": [
+      "Startup OPG Application Framework",
+      ""
+    ],
+    "body": [
+      "opg_start()"
+    ]
+  },
+  "app.opg_stop": {
+    "prefix": "opg_stop",
+    "description": [
+      "Stop OPG Application Framework",
+      ""
+    ],
+    "body": [
+      "opg_stop()"
+    ]
+  },
+  "app.opg_test_widgets_start": {
+    "prefix": "opg_test_widgets_start",
+    "description": [
+      "Startup OPG Widget Test Framework",
+      ""
+    ],
+    "body": [
+      "opg_test_widgets_start()"
+    ]
+  },
+  "app.opg_text_popup_pre": {
+    "prefix": "opg_text_popup_pre",
+    "description": [
+      "OPG Text Popup Pre",
+      "  - Sets window title from title parameter",
+      ""
+    ],
+    "body": [
+      "opg_text_popup_pre()"
+    ]
+  },
+  "app.opg_toolbar_config_post": {
+    "prefix": "opg_toolbar_config_post",
+    "description": [
+      "OPG Toolbar Config Postprocessing",
+      ""
+    ],
+    "body": [
+      "opg_toolbar_config_post()"
+    ]
+  },
+  "app.opg_toolbar_config_pre": {
+    "prefix": "opg_toolbar_config_pre",
+    "description": [
+      "OPG Toolbar Config Preprocessing",
+      ""
+    ],
+    "body": [
+      "opg_toolbar_config_pre()"
+    ]
+  },
+  "app.opg_toolbar_mand_msg": {
+    "prefix": "opg_toolbar_mand_msg",
+    "description": [
+      "OPG Frame Toolbar Mandantenwahl",
+      "  - Handling database change messages",
+      ""
+    ],
+    "body": [
+      "opg_toolbar_mand_msg()"
+    ]
+  },
+  "app.opg_toolbar_mand_pick": {
+    "prefix": "opg_toolbar_mand_pick",
+    "description": [
+      "OPG Frame Toolbar Mandantenwahl",
+      "  - Handling current database change",
+      ""
+    ],
+    "body": [
+      "opg_toolbar_mand_pick()"
+    ]
+  },
+  "app.opg_toolbar_mand_setup": {
+    "prefix": "opg_toolbar_mand_setup",
+    "description": [
+      "OPG Frame Toolbar Mandantenwahl",
+      "  - Setting up the available database list",
+      ""
+    ],
+    "body": [
+      "opg_toolbar_mand_setup()"
+    ]
+  },
+  "app.opg_toolbar_pick": {
+    "prefix": "opg_toolbar_pick",
+    "description": [
+      "OPG Frame Toolbar Pick Processing",
+      ""
+    ],
+    "body": [
+      "opg_toolbar_pick()"
+    ]
+  },
+  "app.opg_toolbar_reset": {
+    "prefix": "opg_toolbar_reset",
+    "description": [
+      "OPG Frame Toolbar Reset",
+      ""
+    ],
+    "body": [
+      "opg_toolbar_reset()"
+    ]
+  },
+  "app.opg_toolbar_setup": {
+    "prefix": "opg_toolbar_setup",
+    "description": [
+      "OPG Frame Toolbar Setup, forces re-configuration of toolbars",
+      ""
+    ],
+    "body": [
+      "opg_toolbar_setup(${1|true,false|})"
+    ]
+  },
+  "app.opg_toolbar_toplevel_container": {
+    "prefix": "opg_toolbar_toplevel_container",
+    "description": [
+      "Get container for OPG Framework Toplevel popups",
+      ""
+    ],
+    "body": [
+      "opg_toolbar_toplevel_container()"
+    ]
+  },
+  "app.opg_userlogin_widget5_pre": {
+    "prefix": "opg_userlogin_widget5_pre",
+    "description": [
+      "OPG Userlogin Widget",
+      ""
+    ],
+    "body": [
+      "opg_userlogin_widget5_pre()"
+    ]
+  },
+  "app.opg_userlogin_widget5_row_activated": {
+    "prefix": "opg_userlogin_widget5_row_activated",
+    "description": [
+      "OPG Userlogin Widget row activation",
+      ""
+    ],
+    "body": [
+      "opg_userlogin_widget5_row_activated()"
+    ]
+  },
+  "sys.opg_callform": {
+    "prefix": "opg_callform",
+    "description": [
+      "Calls a form in blocking or non-blocking mode",
+      "  - `form_name`: Form name",
+      "  - `blocking`: Boolean run mode",
+      "  - `method`: Attachmend method",
+      "  - `parent`: Parent object, attachment point",
+      "  - `input_parameters`: Callform input parameters",
+      ""
+    ],
+    "body": [
+      "opg_callform(${1:form_name}, ${2|true,false|}, ${3:method_string}, ${4:parent_object}${5:, ${6:input_parameters}})"
+    ]
+  },
+  "sys.opg_iter_form_entry": {
+    "prefix": "opg_iter_form_entry",
+    "description": [
+      "Iterator function over all registered entries in the current form",
+      ""
+    ],
+    "body": [
+      "for ${1:entry} in opg_iter_form_entry() do",
+      "\t$0",
+      "end"
+    ]
+  },
+  "sys.opg_iter_form_group": {
+    "prefix": "opg_iter_form_group",
+    "description": [
+      "Iterator function over all registered groups in the current form",
+      ""
+    ],
+    "body": [
+      "for ${1:group} in opg_iter_form_group() do",
+      "\t$0",
+      "end"
+    ]
+  },
+  "sys.opg_iter_group_entry": {
+    "prefix": "opg_iter_group_entry",
+    "description": [
+      "Iterator function over all entries in a group",
+      ""
+    ],
+    "body": [
+      "for ${1:entry} in opg_iter_group_entry(${2:Form.${3:GroupName}}) do",
+      "\t$0",
+      "end"
+    ]
+  },
+  "sys.opg_iter_group_row": {
+    "prefix": "opg_iter_group_row",
+    "description": [
+      "Iterator function over all rows in a group",
+      ""
+    ],
+    "body": [
+      "for ${1:rowidx} in opg_iter_group_row(${2:Form.${3:GroupName}}) do",
+      "\t$0",
+      "end"
+    ]
+  },
+  "sys.opg_moveto": {
+    "prefix": "opg_moveto",
+    "description": [
+      "OPG Focus Move",
+      "  - Registers programmed focus movement",
+      ""
+    ],
+    "body": [
+      "opg_moveto(${1:moveto}${2:, ${3:index}${4:, ${5:column_name}}})"
+    ]
+  },
+  "sys.opg_sigh_activate": {
+    "prefix": "opg_sigh_activate",
+    "description": [
+      "OPG System Signal Handler - 'activate' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_activate()"
+    ]
+  },
+  "sys.opg_sigh_button": {
+    "prefix": "opg_sigh_button",
+    "description": [
+      "OPG System Signal Handler - 'button-press-event' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_button()"
+    ]
+  },
+  "sys.opg_sigh_button_release": {
+    "prefix": "opg_sigh_button_release",
+    "description": [
+      "OPG System Signal Handler - 'button-release-event' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_button_release()"
+    ]
+  },
+  "sys.opg_sigh_cell_button_clicked": {
+    "prefix": "opg_sigh_cell_button_clicked",
+    "description": [
+      "OPG System Cell Button Click Handler - 'clicked' signal wrapper for cell buttons",
+      ""
+    ],
+    "body": [
+      "opg_sigh_cell_button_clicked()"
+    ]
+  },
+  "sys.opg_sigh_cell_button_dd_get": {
+    "prefix": "opg_sigh_cell_button_dd_get",
+    "description": [
+      "OPG System Cell Button DnD Handler - 'drag-data-get' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_cell_button_dd_get()"
+    ]
+  },
+  "sys.opg_sigh_cell_button_dd_recv": {
+    "prefix": "opg_sigh_cell_button_dd_recv",
+    "description": [
+      "OPG System Cell Button DnD Handler - 'drag-data-received' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_cell_button_dd_recv()"
+    ]
+  },
+  "sys.opg_sigh_changed": {
+    "prefix": "opg_sigh_changed",
+    "description": [
+      "OPG System Signal Handler - 'changed' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_changed()"
+    ]
+  },
+  "sys.opg_sigh_clicked": {
+    "prefix": "opg_sigh_clicked",
+    "description": [
+      "OPG System Signal Handler - 'clicked' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_clicked()"
+    ]
+  },
+  "sys.opg_sigh_deactivate": {
+    "prefix": "opg_sigh_deactivate",
+    "description": [
+      "OPG System Signal Handler - 'deactivate' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_deactivate()"
+    ]
+  },
+  "sys.opg_sigh_enter_tab": {
+    "prefix": "opg_sigh_enter_tab",
+    "description": [
+      "OPG System Enter-Key Handler - 'activate' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_enter_tab()"
+    ]
+  },
+  "sys.opg_sigh_entry_focus_in": {
+    "prefix": "opg_sigh_entry_focus_in",
+    "description": [
+      "OPG System Signal Handler - 'entry-focus-in' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_entry_focus_in()"
+    ]
+  },
+  "sys.opg_sigh_entry_focus_out": {
+    "prefix": "opg_sigh_entry_focus_out",
+    "description": [
+      "OPG System Signal Handler - 'entry-focus-out' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_entry_focus_out()"
+    ]
+  },
+  "sys.opg_sigh_event_after": {
+    "prefix": "opg_sigh_event_after",
+    "description": [
+      "OPG System Signal Handler - 'event-after' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_event_after()"
+    ]
+  },
+  "sys.opg_sigh_focus_out": {
+    "prefix": "opg_sigh_focus_out",
+    "description": [
+      "OPG System Signal Handler - 'focus-out-event' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_focus_out()"
+    ]
+  },
+  "sys.opg_sigh_focus_in": {
+    "prefix": "opg_sigh_focus_in",
+    "description": [
+      "OPG System Signal Handler - 'focus-in-event' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_focus_in()"
+    ]
+  },
+  "sys.opg_sigh_hide": {
+    "prefix": "opg_sigh_hide",
+    "description": [
+      "OPG System Signal Handler - 'hide' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_hide()"
+    ]
+  },
+  "sys.opg_sigh_icon_press": {
+    "prefix": "opg_sigh_icon_press",
+    "description": [
+      "OPG System Signal Handler - 'icon-press' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_icon_press()"
+    ]
+  },
+  "sys.opg_sigh_key_escape": {
+    "prefix": "opg_sigh_key_escape",
+    "description": [
+      "OPG System Escape-Key Handler - 'activate' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_key_escape()"
+    ]
+  },
+  "sys.opg_sigh_keypress": {
+    "prefix": "opg_sigh_keypress",
+    "description": [
+      "OPG System Signal Handler - 'keypress' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_keypress()"
+    ]
+  },
+  "sys.opg_sigh_map": {
+    "prefix": "opg_sigh_map",
+    "description": [
+      "OPG System Signal Handler - 'map' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_map()"
+    ]
+  },
+  "sys.opg_sigh_new_column_width": {
+    "prefix": "opg_sigh_new_column_width",
+    "description": [
+      "OPG System Signal Handler - 'new-column-width' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_new_column_width()"
+    ]
+  },
+  "sys.opg_sigh_populate_popup": {
+    "prefix": "opg_sigh_populate_popup",
+    "description": [
+      "OPG System Signal Handler - 'populate-popup' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_populate_popup()"
+    ]
+  },
+  "sys.opg_sigh_sheet_range": {
+    "prefix": "opg_sigh_sheet_range",
+    "description": [
+      "OPG System Signal Handler",
+      ""
+    ],
+    "body": [
+      "opg_sigh_sheet_range()"
+    ]
+  },
+  "sys.opg_sigh_show": {
+    "prefix": "opg_sigh_show",
+    "description": [
+      "OPG System Signal Handler - 'show' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_show()"
+    ]
+  },
+  "sys.opg_sigh_toggled": {
+    "prefix": "opg_sigh_toggled",
+    "description": [
+      "OPG System Signal Handler - 'toggled' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_toggled()"
+    ]
+  },
+  "sys.opg_sigh_unmap": {
+    "prefix": "opg_sigh_unmap",
+    "description": [
+      "OPG System Signal Handler - 'unmap' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sigh_unmap()"
+    ]
+  },
+  "sys.opg_sql_check_table": {
+    "prefix": "opg_sql_check_table",
+    "description": [
+      "Checks or creates a db table with initial data",
+      "  - `tablename`: Name of the table to be created",
+      "  - `create_sql`: Table creation sql statement",
+      "  - `data_sql`: Initial data creation sql statement",
+      "  - `conn_idx`: Connection name or index (string or number)",
+      ""
+    ],
+    "body": [
+      "opg_sql_check_table(${1:tablename}, ${2:create_sql}, ${3:data_sql}, ${4:conn_idx})"
+    ]
+  },
+  "sys.opg_sql_error_check": {
+    "prefix": "opg_sql_error_check",
+    "description": [
+      "Checks sql errors after processing",
+      "  - `res`: First result parameter returned from last operation (unused)",
+      "  - `errmsg`: Second result parameter returned from last operation (unused)",
+      "  - `diag_msg`: Custom diagnostic message prefix",
+      "  - `sqd`: Sql driver",
+      ""
+    ],
+    "body": [
+      "opg_sql_error_check(${1:res}, ${2:errmsg}, ${3:diag_msg}, ${4:sqd})"
+    ]
+  },
+  "sys.opg_sql_error_report": {
+    "prefix": "opg_sql_error_report",
+    "description": [
+      "Optionally popups formatted error message",
+      "  - `diag_msg`: Diagnostic message prefix",
+      "  - `show_errors`: Boolean flag to enable error message display",
+      "  - `sqlcode`: String to be presented",
+      "  - `sqd`: Sql driver",
+      ""
+    ],
+    "body": [
+      "opg_sql_error_report(${1:diag_msg}, ${2|true,false|}, ${3:sqlcode}, ${4:sqd})"
+    ]
+  },
+  "sys.opg_sql_errors": {
+    "prefix": "opg_sql_errors",
+    "description": [
+      "Return number of sql driver errors or messages",
+      ""
+    ],
+    "body": [
+      "opg_sql_errors(${1:conn_idx})"
+    ]
+  },
+  "sys.opg_sql_find_connection": {
+    "prefix": "opg_sql_find_connection",
+    "description": [
+      "Looks for database connection `conn_idx`",
+      ""
+    ],
+    "body": [
+      "opg_sql_find_connection(${1:conn_idx})"
+    ]
+  },
+  "sys.opg_sql_finish_form": {
+    "prefix": "opg_sql_finish_form",
+    "description": [
+      "Finishs sql processing",
+      ""
+    ],
+    "body": [
+      "opg_sql_finish_form(${1:conn})"
+    ]
+  },
+  "sys.opg_sql_flush": {
+    "prefix": "opg_sql_flush",
+    "description": [
+      "Cancels query and flushs sql server results",
+      ""
+    ],
+    "body": [
+      "opg_sql_flush(${1:conn_idx})"
+    ]
+  },
+  "sys.opg_sql_get_dbname": {
+    "prefix": "opg_sql_get_dbname",
+    "description": [
+      "Inquires current dbname",
+      ""
+    ],
+    "body": [
+      "opg_sql_get_dbname(${1:conn_idx})"
+    ]
+  },
+  "sys.opg_sql_parser": {
+    "prefix": "opg_sql_parser",
+    "description": [
+      "Parser for sql statements",
+      "  - '{LocalVarName}'",
+      "  - \"{LocalVarName}\"",
+      "  - '{Form.FieldName.Property}'",
+      "  - '{Form.GroupName.Row[RowIndex].FieldName.Property}'",
+      ""
+    ],
+    "body": [
+      "opg_sql_parser(${1:sql})"
+    ]
+  },
+  "sys.opg_sql_prepare_form": {
+    "prefix": "opg_sql_prepare_form",
+    "description": [
+      "Setup sql form processing",
+      ""
+    ],
+    "body": [
+      "opg_sql_prepare_form(${1:conn}, ${2:sqd})"
+    ]
+  },
+  "sys.opg_sql_process_key": {
+    "prefix": "opg_sql_process_key",
+    "description": [
+      "Processes key access results",
+      "  - Column names: `__Key`, `__Col`, `__Val`, `__Color`",
+      "  - Color codes: `R`, `G`, `B`, `C`, `M`, `Y`, `W`, `D`, `O`",
+      ""
+    ],
+    "body": [
+      "opg_sql_process_key(${1:sql_result_table}, ${2:group})"
+    ]
+  },
+  "sys.opg_sql_process_random": {
+    "prefix": "opg_sql_process_random",
+    "description": [
+      "Processes random access results",
+      "  - Column names: `__Row`, `__Col`, `__Val`, `__Color`",
+      "  - Color codes: `R`, `G`, `B`, `C`, `M`, `Y`, `W`, `D`, `O`",
+      ""
+    ],
+    "body": [
+      "opg_sql_process_random(${1:sql_result_table}, ${2:group})"
+    ]
+  },
+  "sys.opg_sql_process_row": {
+    "prefix": "opg_sql_process_row",
+    "description": [
+      "Sql row processing",
+      ""
+    ],
+    "body": [
+      "opg_sql_process_row(${1:conn})"
+    ]
+  },
+  "sys.opg_sql_quote": {
+    "prefix": "opg_sql_quote",
+    "description": [
+      "Quotes special characters within sql code",
+      ""
+    ],
+    "body": [
+      "opg_sql_quote(${1:sql}, ${2:quote})"
+    ]
+  },
+  "sys.opg_sql_submit_defaults": {
+    "prefix": "opg_sql_submit_defaults",
+    "description": [
+      "Fetches and applies form defaults (customizing)",
+      "  - `force_overwrite`: Boolean flag to enable overwriting of existing values",
+      "  - `conn_idx`: Connection name or index",
+      ""
+    ],
+    "body": [
+      "opg_sql_submit_defaults(${1:${2|true,false|}${3:, ${4:conn_idx}}})"
+    ]
+  },
+  "sys.opg_sql_submit_form": {
+    "prefix": "opg_sql_submit_form",
+    "description": [
+      "Executes sql statement, processes results into form",
+      "  - `sqlcode`: Code to be executed",
+      "  - `show_errors`: Boolean - flag to enable error popup",
+      "  - `conn_idx`: Connection name or index (string or number)",
+      "  - `silent`: Boolean - do not popup progress bar",
+      "  - `disable_gc`: Boolean - do not run garbage collection",
+      "  - `noexec`: Boolean - send sqlcode only",
+      ""
+    ],
+    "body": [
+      "opg_sql_submit_form(${1:sqlcode}${2:, ${3|true,false|}${4:, ${5:conn_idx}${6:, ${7|false,true|}${8:, ${9|false,true|}${10:, ${11|false,true|}}}}}})"
+    ]
+  },
+  "sys.opg_sql_submit_local": {
+    "prefix": "opg_sql_submit_local",
+    "description": [
+      "Executes sql statement, returns results into variables",
+      "  - `sqlcode`: Code to be executed",
+      "  - `exp_result_columns`: Number of result columns",
+      "  - `show_errors`: Boolean - flag to enable error popup",
+      "  - `conn_idx`: Connection name or index (string or number)",
+      ""
+    ],
+    "body": [
+      "opg_sql_submit_local(${1:sqlcode}, ${2:exp_result_columns}${3:, ${4|true, false|}${5:, ${6:conn_idx}}})"
+    ]
+  },
+  "sys.opg_sql_submit_mustenter": {
+    "prefix": "opg_sql_submit_mustenter",
+    "description": [
+      "Fetches and checks form mustenter fields",
+      ""
+    ],
+    "body": [
+      "opg_sql_submit_mustenter(${1:conn_idx})"
+    ]
+  },
+  "sys.opg_sql_submit_table": {
+    "prefix": "opg_sql_submit_table",
+    "description": [
+      "Executes sql statement, returns results into a lua table",
+      "  - `sqlcode`: Code to be executed",
+      "  - `show_errors`: Boolean - flag to enable error popup",
+      "  - `conn_idx`: Connection name or index (string or number)",
+      "  - `silent`: Boolean - do not popup progress bar",
+      "  - `disable_gc`: Boolean - do not run garbage collection",
+      "  - `multi_batch`: Boolean/table - collect multiple batches",
+      ""
+    ],
+    "body": [
+      "opg_sql_submit_table(${1:sqlcode}${2:, ${3|true,false|}${4:, ${5:conn_idx}${6:, ${7|false,true|}${8:, ${9|false,true|}${10:, ${11|false,true,multi_batch|}}}}}})"
+    ]
+  },
+  "sys.opg_sql_use": {
+    "prefix": "opg_sql_use",
+    "description": [
+      "Switches current database",
+      ""
+    ],
+    "body": [
+      "opg_sql_use(${1:dbname}, ${2:conn_idx})"
+    ]
+  },
+  "sys.opg_sys_barcode": {
+    "prefix": "opg_sys_barcode",
+    "description": [
+      "Renders barcode into pixbuf",
+      ""
+    ],
+    "body": [
+      "opg_sys_barcode(${1|'QRCode','Datamatrix'|}, ${2:data}${3:, ${4:options}})"
+    ]
+  },
+  "sys.opg_sys_buildcondition": {
+    "prefix": "opg_sys_buildcondition",
+    "description": [
+      "Generates SQL where-clause",
+      ""
+    ],
+    "body": [
+      "opg_sys_buildcondition(${1|'exact','debug'|}, ${2:cond_def}, ${3:...})"
+    ]
+  },
+  "sys.opg_sys_button": {
+    "prefix": "opg_sys_button",
+    "description": [
+      "'button-press-event' signal wrapper",
+      ""
+    ],
+    "body": [
+      "opg_sys_button()"
+    ]
+  },
+  "sys.opg_sys_callref": {
+    "prefix": "opg_sys_callref",
+    "description": [
+      "Calls a form-reference",
+      ""
+    ],
+    "body": [
+      "opg_sys_callref(${1:form_ref}, ${2:method}${3:, ${4:parent}})"
+    ]
+  },
+  "sys.opg_sys_callref_mk": {
+    "prefix": "opg_sys_callref_mk",
+    "description": [
+      "Creates a form reference from given argument list",
+      ""
+    ],
+    "body": [
+      "opg_sys_callref_mk(${1:form_name}, ${2:...})"
+    ]
+  },
+  "sys.opg_sys_callref_parse": {
+    "prefix": "opg_sys_callref_parse",
+    "description": [
+      "Parses a form-reference",
+      ""
+    ],
+    "body": [
+      "opg_sys_callref_parse(${1:form_ref})"
+    ]
+  },
+  "sys.opg_sys_callref_subst": {
+    "prefix": "opg_sys_callref_subst",
+    "description": [
+      "Substitutes a pattern in form-reference parameters",
+      ""
+    ],
+    "body": [
+      "opg_sys_callref_subst(${1:form_ref}, ${2:pattern}, ${3:replacement})"
+    ]
+  },
+  "sys.opg_sys_cancel": {
+    "prefix": "opg_sys_cancel",
+    "description": [
+      "Cancels form",
+      ""
+    ],
+    "body": [
+      "opg_sys_cancel()"
+    ]
+  },
+  "sys.opg_sys_canvas_init": {
+    "prefix": "opg_sys_canvas_init",
+    "description": [
+      "Canvas module initialisation",
+      ""
+    ],
+    "body": [
+      "opg_sys_canvas_init()"
+    ]
+  },
+  "sys.opg_sys_char2date": {
+    "prefix": "opg_sys_char2date",
+    "description": [
+      "Date entry completion and check",
+      ""
+    ],
+    "body": [
+      "opg_sys_char2date(${1:datestring})"
+    ]
+  },
+  "sys.opg_sys_char_length": {
+    "prefix": "opg_sys_char_length",
+    "description": [
+      "Number of characters in utf-8 string",
+      ""
+    ],
+    "body": [
+      "opg_sys_char_length(${1:str})"
+    ]
+  },
+  "sys.opg_sys_charindex": {
+    "prefix": "opg_sys_charindex",
+    "description": [
+      "Returns index of pattern in string",
+      ""
+    ],
+    "body": [
+      "opg_sys_charindex(${1:pattern}, ${2:str})"
+    ]
+  },
+  "sys.opg_sys_chart_init": {
+    "prefix": "opg_sys_chart_init",
+    "description": [
+      "Chart module initialisation",
+      ""
+    ],
+    "body": [
+      "opg_sys_chart_init()"
+    ]
+  },
+  "sys.opg_sys_clipboard_get": {
+    "prefix": "opg_sys_clipboard_get",
+    "description": [
+      "Retreive structured content from application clipboard",
+      ""
+    ],
+    "body": [
+      "opg_sys_clipboard_get(${1:key})"
+    ]
+  },
+  "sys.opg_sys_clipboard_put": {
+    "prefix": "opg_sys_clipboard_put",
+    "description": [
+      "Pushes structured content into application clipboard",
+      ""
+    ],
+    "body": [
+      "opg_sys_clipboard_put(${1:key}, ${2:contents})"
+    ]
+  },
+  "sys.opg_sys_color_condition_eval": {
+    "prefix": "opg_sys_color_condition_eval",
+    "description": [
+      "ColorCondition evaluation",
+      ""
+    ],
+    "body": [
+      "opg_sys_color_condition_eval(${1:style_condition}, ${2:value})"
+    ]
+  },
+  "sys.opg_sys_color_condition_parse": {
+    "prefix": "opg_sys_color_condition_parse",
+    "description": [
+      "Parses ColorCondition",
+      ""
+    ],
+    "body": [
+      "opg_sys_color_condition_parse(${1:description})"
+    ]
+  },
+  "sys.opg_sys_color_parse": {
+    "prefix": "opg_sys_color_parse",
+    "description": [
+      "Parses color definition into style_list",
+      ""
+    ],
+    "body": [
+      "opg_sys_color_parse(${1:description})"
+    ]
+  },
+  "sys.opg_sys_confirm3": {
+    "prefix": "opg_sys_confirm3",
+    "description": [
+      "3-way confirmer dialog",
+      ""
+    ],
+    "body": [
+      "opg_sys_confirm3(${1:message}, ${2:button0_label}, ${3:button1_label}, ${4:button3_label})"
+    ]
+  },
+  "sys.opg_sys_css_class_parse": {
+    "prefix": "opg_sys_css_class_parse",
+    "description": [
+      "Parses CSS class definition into cssclasslist",
+      ""
+    ],
+    "body": [
+      "opg_sys_css_class_parse(${1:description})"
+    ]
+  },
+  "sys.opg_sys_css_init": {
+    "prefix": "opg_sys_css_init",
+    "description": [
+      "Initializes system css classes",
+      ""
+    ],
+    "body": [
+      "opg_sys_css_init()"
+    ]
+  },
+  "sys.opg_sys_datetime_init": {
+    "prefix": "opg_sys_datetime_init",
+    "description": [
+      "Module 'DateTime' initialisation",
+      ""
+    ],
+    "body": [
+      "opg_sys_datetime_init()"
+    ]
+  },
+  "sys.opg_sys_device_init": {
+    "prefix": "opg_sys_device_init",
+    "description": [
+      "Local device module initialisation",
+      ""
+    ],
+    "body": [
+      "opg_sys_device_init()"
+    ]
+  },
+  "sys.opg_sys_dta": {
+    "prefix": "opg_sys_dta",
+    "description": [
+      "Prepares dta file via casyd server",
+      ""
+    ],
+    "body": [
+      "opg_sys_dta(${1:tmpname}, ${2:dtaname})"
+    ]
+  },
+  "sys.opg_sys_entry_completion": {
+    "prefix": "opg_sys_entry_completion",
+    "description": [
+      "Adds completion to entry fields",
+      "  - `FormObj`: Where to add completion",
+      "  - `CompletionObj`: Completion to be added",
+      "  - `RecordList`: A list of records with named fields",
+      "  - `ColumnName`: Name of text value field in record",
+      "  - `ColumnName2`: Name of description field in record",
+      ""
+    ],
+    "body": [
+      "opg_sys_entry_completion(${1:FormObj}, ${2:CompletionObj}, ${3:RecordList}, ${4:ColumnName}${5:, ${6:ColumnName2}})"
+    ]
+  },
+  "sys.opg_sys_event": {
+    "prefix": "opg_sys_event",
+    "description": [
+      "Sends event mail via casyd server",
+      "  - `user`: Username (Event-Context field user)",
+      "  - `mandant`: Database name (obsolete) (Event-Context field mandant)",
+      "  - `form_name`: Form name (Event-Context field form)",
+      "  - `event_id`: Event-id (Event-Context field event)",
+      "  - `rcpt`: Event recipient",
+      "  - `subject`: Event subject",
+      "  - `description`: Event description in clear text (Event-Body) ",
+      ""
+    ],
+    "body": [
+      "opg_sys_event(${1:user}, ${2:mandant}, ${3:form_name}, ${4:event_id}, ${5:rcpt}, ${6:subject}, ${7:description})"
+    ]
+  },
+  "sys.opg_sys_exit": {
+    "prefix": "opg_sys_exit",
+    "description": [
+      "Exits form with exit-processing",
+      ""
+    ],
+    "body": [
+      "opg_sys_exit()"
+    ]
+  },
+  "sys.opg_sys_file_chooser": {
+    "prefix": "opg_sys_file_chooser",
+    "description": [
+      "File chooser dialog",
+      "  - `action`: The purpose of the file chooser",
+      "  - `extension`: File extension(s) to filter files (without dot or wildcard)",
+      "  - `path`: Path without file name",
+      "  - `name`: File name without path",
+      "  - `title`: Dialog title to be presented to the user",
+      ""
+    ],
+    "body": [
+      "opg_sys_file_chooser(${1|'open','save','select_folder','create_folder'|}, ${2:extension}, ${3:path}, ${4:name}, ${5:title})"
+    ]
+  },
+  "sys.opg_sys_finish": {
+    "prefix": "opg_sys_finish",
+    "description": [
+      "Reworks form objects after filling with sql",
+      "  - `form_obj`: Form object to finish",
+      "  - `move_cursor`: Boolean - move cursor to the first row (Default: true)",
+      ""
+    ],
+    "body": [
+      "opg_sys_finish(${1:form_obj}${2:, ${3|true,false|}})"
+    ]
+  },
+  "sys.opg_sys_focus": {
+    "prefix": "opg_sys_focus",
+    "description": [
+      "Focusses state machine",
+      ""
+    ],
+    "body": [
+      "opg_sys_focus(${1:scope}, ${2:signal}, ${3:form_obj})"
+    ]
+  },
+  "sys.opg_sys_focus_nonempty_row": {
+    "prefix": "opg_sys_focus_nonempty_row",
+    "description": [
+      "Checks if focus is in group test",
+      "  - `group`: Group name",
+      "  - `...`: List of column names for the non-empty-row test",
+      ""
+    ],
+    "body": [
+      "opg_sys_focus_nonempty_row(${1:group}, ${2:...})"
+    ]
+  },
+  "sys.opg_sys_form_attach": {
+    "prefix": "opg_sys_form_attach",
+    "description": [
+      "Attaches a new form to the application user interface",
+      "  - `builder`: GtkBuilder object",
+      "  - `object`: Toplevel object of ui build tree",
+      "  - `blocking`: Boolean - blocking flag from `sys.opg_callform`",
+      "  - `method`: Attachment method wanted (comma separated list of attachment options addable after the method name)",
+      "  - `parent`: Attachment point, where to attach",
+      ""
+    ],
+    "body": [
+      "opg_sys_form_attach(${1:builder}, ${2:object}, ${3|true,false|}, ${4:'${5|TopLevel,IntoNewTab,IntoSameTab,Same|}${6:,${7|NoIcon,NoMarkup,NoDBName,DBNameAbove,BoldTitle,NoClose,NoMarkup,ConfirmCancel,DeclineCancel|}}'}, ${8:parent})"
+    ]
+  },
+  "sys.opg_sys_form_convert": {
+    "prefix": "opg_sys_form_convert",
+    "description": [
+      "Converts form before building",
+      ""
+    ],
+    "body": [
+      "opg_sys_form_convert(${1:ui_definition})"
+    ]
+  },
+  "sys.opg_sys_form_detach": {
+    "prefix": "opg_sys_form_detach",
+    "description": [
+      "Detaches a form from the application user interface",
+      ""
+    ],
+    "body": [
+      "opg_sys_form_detach()"
+    ]
+  },
+  "sys.opg_sys_form_fix": {
+    "prefix": "opg_sys_form_fix",
+    "description": [
+      "Fixes form objects after translation",
+      ""
+    ],
+    "body": [
+      "opg_sys_form_fix()"
+    ]
+  },
+  "sys.opg_sys_form_icon": {
+    "prefix": "opg_sys_form_icon",
+    "description": [
+      "Get form icon name",
+      ""
+    ],
+    "body": [
+      "opg_sys_form_icon(${1:form_name}${2, ${3:form_reference}})"
+    ]
+  },
+  "sys.opg_sys_form_icon_dep": {
+    "prefix": "opg_sys_form_icon_dep",
+    "description": [
+      "Get form department-icon name",
+      ""
+    ],
+    "body": [
+      "opg_sys_form_icon_dep(${1:form_name}${2, ${3:form_reference}})"
+    ]
+  },
+  "sys.opg_sys_form_info": {
+    "prefix": "opg_sys_form_info",
+    "description": [
+      "Get various information about a form",
+      ""
+    ],
+    "body": [
+      "opg_sys_form_info(${1|'IconName'|}, ${2:form_name}${3, ${4:form_reference}})"
+    ]
+  },
+  "sys.opg_sys_form_init": {
+    "prefix": "opg_sys_form_init",
+    "description": [
+      "Initializes form and thread data",
+      ""
+    ],
+    "body": [
+      "opg_sys_form_init()"
+    ]
+  },
+  "sys.opg_sys_form_initial_field": {
+    "prefix": "opg_sys_form_initial_field",
+    "description": [
+      "Determines initial field",
+      ""
+    ],
+    "body": [
+      "opg_sys_form_initial_field()"
+    ]
+  },
+  "sys.opg_sys_form_register_handler": {
+    "prefix": "opg_sys_form_register_handler",
+    "description": [
+      "Registers form processing handler",
+      "  - `processing`: Processing type",
+      "  - `handler`: Handler name",
+      "  - `remove`: Boolean - pass true to disable the named handler",
+      ""
+    ],
+    "body": [
+      "opg_sys_form_register_handler(${1|'pre','post','cancel'|}, ${2:handler}${3, ${4|true,false|})"
+    ]
+  },
+  "sys.opg_sys_form_stat": {
+    "prefix": "opg_sys_form_stat",
+    "description": [
+      "Updates callform statistics",
+      ""
+    ],
+    "body": [
+      "opg_sys_form_stat(${1:formid})"
+    ]
+  },
+  "sys.opg_sys_form_style": {
+    "prefix": "opg_sys_form_style",
+    "description": [
+      "Sets form style",
+      ""
+    ],
+    "body": [
+      "opg_sys_form_style()"
+    ]
+  },
+  "sys.opg_sys_form_title": {
+    "prefix": "opg_sys_form_title",
+    "description": [
+      "Calculates and sets form title",
+      ""
+    ],
+    "body": [
+      "opg_sys_form_title(${1:do_generate})"
+    ]
+  },
+  "sys.opg_sys_form_trans": {
+    "prefix": "opg_sys_form_trans",
+    "description": [
+      "Updates form translations",
+      ""
+    ],
+    "body": [
+      "opg_sys_form_trans()"
+    ]
+  },
+  "sys.opg_sys_form_trans_load": {
+    "prefix": "opg_sys_form_trans_load",
+    "description": [
+      "Loads form translations",
+      ""
+    ],
+    "body": [
+      "opg_sys_form_trans_load(${1:formid})"
+    ]
+  },
+  "sys.opg_sys_frame_size": {
+    "prefix": "opg_sys_frame_size",
+    "description": [
+      "Get frame size",
+      ""
+    ],
+    "body": [
+      "opg_sys_frame_size()"
+    ]
+  },
+  "sys.opg_sys_ftcsv_init": {
+    "prefix": "opg_sys_ftcsv_init",
+    "description": [
+      "Initializes CSV Parser/Writer",
+      ""
+    ],
+    "body": [
+      "opg_sys_ftcsv_init()"
+    ]
+  },
+  "sys.opg_sys_get_actdb": {
+    "prefix": "opg_sys_get_actdb",
+    "description": [
+      "Get active database name",
+      ""
+    ],
+    "body": [
+      "opg_sys_get_actdb()"
+    ]
+  },
+  "sys.opg_sys_get_curfield_property": {
+    "prefix": "opg_sys_get_curfield_property",
+    "description": [
+      "Get current field property value",
+      ""
+    ],
+    "body": [
+      "opg_sys_get_curfield_property(${1:property})"
+    ]
+  },
+  "sys.opg_sys_get_default_font": {
+    "prefix": "opg_sys_get_default_font",
+    "description": [
+      "Get global application default font",
+      ""
+    ],
+    "body": [
+      "opg_sys_get_default_font()"
+    ]
+  },
+  "sys.opg_sys_get_email": {
+    "prefix": "opg_sys_get_email",
+    "description": [
+      "Get e-mail address of the logged-in user",
+      ""
+    ],
+    "body": [
+      "opg_sys_get_email()"
+    ]
+  },
+  "sys.opg_sys_get_global": {
+    "prefix": "opg_sys_get_global",
+    "description": [
+      "Get global variable value",
+      ""
+    ],
+    "body": [
+      "opg_sys_get_global(${1:name})"
+    ]
+  },
+  "sys.opg_sys_get_group": {
+    "prefix": "opg_sys_get_group",
+    "description": [
+      "Get customizing group of the logged-in user",
+      ""
+    ],
+    "body": [
+      "opg_sys_get_group(${1:conn_idx})"
+    ]
+  },
+  "sys.opg_sys_get_http_timeout": {
+    "prefix": "opg_sys_get_http_timeout",
+    "description": [
+      "Get http request timeout (`Lua:Socket:http.request()`)",
+      ""
+    ],
+    "body": [
+      "opg_sys_get_http_timeout()"
+    ]
+  },
+  "sys.opg_sys_get_lang": {
+    "prefix": "opg_sys_get_lang",
+    "description": [
+      "Get language of the logged-in user",
+      ""
+    ],
+    "body": [
+      "opg_sys_get_lang()"
+    ]
+  },
+  "sys.opg_sys_get_mailhost": {
+    "prefix": "opg_sys_get_mailhost",
+    "description": [
+      "Get mail gateway address",
+      ""
+    ],
+    "body": [
+      "opg_sys_get_mailhost()"
+    ]
+  },
+  "sys.opg_sys_get_mode": {
+    "prefix": "opg_sys_get_mode",
+    "description": [
+      "Get session mode",
+      ""
+    ],
+    "body": [
+      "opg_sys_get_mode()"
+    ]
+  },
+  "sys.opg_sys_get_proxy_url": {
+    "prefix": "opg_sys_get_proxy_url",
+    "description": [
+      "Get http proxy url (`Lua:Socket:http.request()`)",
+      ""
+    ],
+    "body": [
+      "opg_sys_get_proxy_url()"
+    ]
+  },
+  "sys.opg_sys_get_user": {
+    "prefix": "opg_sys_get_user",
+    "description": [
+      "Get name of the logged-in user",
+      ""
+    ],
+    "body": [
+      "opg_sys_get_user()"
+    ]
+  },
+  "sys.opg_sys_gtk3_fixes": {
+    "prefix": "opg_sys_gtk3_fixes",
+    "description": [
+      "Redefines some deprecated or removed GTK functions which are widely used in the application",
+      ""
+    ],
+    "body": [
+      "opg_sys_gtk3_fixes()"
+    ]
+  },
+  "sys.opg_sys_http_request": {
+    "prefix": "opg_sys_http_request",
+    "description": [
+      "Executes cURL http request",
+      "  - `method`: HTTP method",
+      "  - `uri`: URI",
+      "  - `auth`: Table containing authentication infos",
+      "  - `headers`: Table containing the request headers",
+      "  - `body`: Table containing the request body",
+      "  - `options`: Table containing request options",
+      ""
+    ],
+    "body": [
+      "opg_sys_http_request(${1|'GET','POST','PUT','DELETE','PATCH','HEAD','TRACE','OPTIONS'|}, ${2:uri}${3:, ${4:auth}${5:, ${6:auth}${7:, ${8:headers}${9:, ${10:body}${11:, ${12:options}}}}}})"
+    ]
+  }
+}

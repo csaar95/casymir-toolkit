@@ -1,0 +1,12 @@
+{
+  "_cURL": {
+    "prefix": "require cURL",
+    "description": [
+      "Include Lua-cURL module",
+      ""
+    ],
+    "body": [
+      "local cURL = require('cURL')"
+    ]
+  }
+}

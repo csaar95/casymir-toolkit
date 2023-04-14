@@ -1,0 +1,158 @@
+{
+  "_casy": {
+    "prefix": "require casy",
+    "description": [
+      "Include casy module",
+      ""
+    ],
+    "body": [
+      "require('casy')"
+    ]
+  },
+  "casy.AlleMandanten": {
+    "prefix": "casy.AlleMandanten",
+    "description": [
+      "Ausgabe aller bekannten Mandanten, Leerzeichen separiert in einem String",
+      ""
+    ],
+    "body": [
+      "casy.AlleMandanten(${1:conn})"
+    ]
+  },
+  "casy.connect": {
+    "prefix": "casy.connect",
+    "description": [
+      "Auslesen der casymir.ini und Aufbau einer DB-Verbindung",
+      ""
+    ],
+    "body": [
+      "casy.connect(${1:${2:conf_key}${3:, ${4:db_name}${5:, ${6:charset}}}})"
+    ]
+  },
+  "casy.get_conf": {
+    "prefix": "casy.get_conf",
+    "description": [
+      "Auslesen eines Konfigurations-Eintrags der casymir.ini",
+      ""
+    ],
+    "body": [
+      "casy.get_conf(${1:conf_key})"
+    ]
+  },
+  "casy.getpid": {
+    "prefix": "casy.getpid",
+    "description": [
+      "Prozess-ID des Skript Interpreters",
+      ""
+    ],
+    "body": [
+      "casy.getpid()"
+    ]
+  },
+  "casy.hostname": {
+    "prefix": "casy.hostname",
+    "description": [
+      "Hostname auf dem das Skript läuft",
+      ""
+    ],
+    "body": [
+      "casy.hostname()"
+    ]
+  },
+  "casy.join": {
+    "prefix": "casy.join",
+    "description": [
+      "Setzt alle Werte einer Liste mittels Separator zu einem String zusammen",
+      ""
+    ],
+    "body": [
+      "casy.join('${1:,}', ${2:list})"
+    ]
+  },
+  "casy.load": {
+    "prefix": "casy.load",
+    "description": [
+      "Laden einer optionalen Prozedur",
+      ""
+    ],
+    "body": [
+      "casy.load(${1:proc_name}${2:, ${3:db_name}})"
+    ]
+  },
+  "casy.log": {
+    "prefix": "casy.log",
+    "description": [
+      "Loggt in casy.log via syslog(LOCAL3)",
+      ""
+    ],
+    "body": [
+      "casy.log(${1:string})"
+    ]
+  },
+  "casy.mail": {
+    "prefix": "casy.mail",
+    "description": [
+      "Versenden einer Email (smtp.message)",
+      ""
+    ],
+    "body": [
+      "casy.mail(${1:subject}, ${2:to}, ${3:body}${4:, ${5:from}})"
+    ]
+  },
+  "casy.ptable": {
+    "prefix": "casy.ptable",
+    "description": [
+      "Debugausgabe einer Tabelle mittels stdout",
+      ""
+    ],
+    "body": "casy.ptable(${1:table})"
+  },
+  "casy.select1": {
+    "prefix": "casy.select1",
+    "description": [
+      "SQL-Selektion einer einzelnen Zeile, pro selektierter Spalte wird ein Wert zurückgegeben",
+      ""
+    ],
+    "body": [
+      "casy.select1(${1:conn}, ${2:sql_string})"
+    ]
+  },
+  "casy.setenv": {
+    "prefix": "casy.setenv",
+    "description": [
+      "Setzen einer Prozess-Environment-Variable",
+      ""
+    ],
+    "body": "casy.setenv(${1:'${2:name}=${3:value}'})"
+  },
+  "casy.split": {
+    "prefix": "casy.split",
+    "description": [
+      "Splittet einen String mittels Separator in eine Liste auf",
+      ""
+    ],
+    "body": [
+      "casy.split('${1:,}', ${2:string})"
+    ]
+  },
+  "casy.TempTable": {
+    "prefix": "casy.TempTable",
+    "description": [
+      "Erzeugung einer (exportierten) temporären Tabelle",
+      ""
+    ],
+    "body": [
+      "casy.TempTable(${1:conn}, ${2:id}, ${3:name})"
+    ]
+  },
+  "casy.tsql": {
+    "prefix": "casy.tsql",
+    "description": [
+      "SQL-Selektion, Rückgabe einer Liste von Tabellen",
+      ""
+    ],
+    "body": [
+      "casy.tsql(${1:conn}, ${2:sql_string})"
+    ]
+  }
+}

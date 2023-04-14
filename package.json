@@ -1,0 +1,122 @@
+{
+  "name": "casymir-toolkit",
+  "displayName": "casymir toolkit",
+  "description": "CASYMIR developing tools",
+  "version": "0.0.1",
+  "publisher": "csaar95",
+  "engines": {
+    "vscode": "^1.25.0"
+  },
+  "author": {
+    "name": "Christian Saar",
+    "url": "https://github.com/csaar95/"
+    },
+  "maintainers": [
+    {
+      "name": "SIGMATECH Informatik GmbH",
+      "url": "https://www.sigmatech.de/"
+    },
+    {
+      "name": "OPAG Informatik AG",
+      "url": "https://opag.ch/"
+    }
+  ],
+  "license": "MIT",
+  "icon": "images/casymir-toolkit.png",
+  "galleryBanner": {
+    "color": "#84b4da",
+    "theme": "light"
+  },
+  "categories": [
+    "Snippets",
+    "Extension Packs"
+  ],
+  "keywords": [
+    "lua",
+    "casymir",
+    "opag",
+    "sigmatech"
+  ],
+  "contributes": {
+    "configurationDefaults": {
+      "files.associations": {
+        "*.proc": "sql",
+        "*.trig": "sql",
+        "*.ait": "sql",
+        "*.view": "sql",
+        "*.tbl": "sql",
+        "*.lu8": "lua",
+        "Makefile.*": "makefile"
+      },
+      "[sql]": {
+        "files.encoding": "iso88591"
+      },
+      "[lua]": {
+        "files.autoGuessEncoding": true
+      },
+      "Lua.diagnostics.disable": [
+        "undefined-global"
+      ],
+      "Lua.runtime.version": "Lua 5.1"
+    },
+    "snippets": [
+      {
+        "language": "lua",
+        "path": "./snippets/lua.casy.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/lua.setup.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/lua.getopt.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/lua.cjson.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/lua.cURL.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/lua.lfs.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/lua.opg_system.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/lua.opg_interpreter.json"
+      },
+      {
+        "language": "sql",
+        "path": "./snippets/sql.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csaar95/vscode-casymir-toolkit"
+  },
+  "bugs": {
+    "url": "https://github.com/csaar95/vscode-casymir-toolkit/issues",
+    "email": "c.saar@sigmatech.de"
+  },
+  "homepage": "https://github.com/csaar95/vscode-casymir-toolkit/blob/master/README.md",
+  "extensionPack": [
+    "csaar95.oregator",
+    "sumneko.lua",
+    "keyring.Lua"
+  ],
+  "badges": [
+    {
+      "description": "Visit CASYMIR",
+      "href": "https://casymir.com",
+      "url": "https://img.shields.io/badge/CASYMIR-d6066e.svg"
+    }
+  ]
+}

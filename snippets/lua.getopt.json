@@ -1,0 +1,22 @@
+{
+  "_getopt": {
+    "prefix": "require getopt",
+    "description": [
+      "Include getopt module",
+      ""
+    ],
+    "body": [
+      "require('getopt')"
+    ]
+  },
+  "getopt": {
+    "prefix": "getopt",
+    "description": [
+      "Liefert eine Wertetabelle anhand der übergebenen Argumente und Optionen",
+      ""
+    ],
+    "body": [
+      "getopt(${1:arg}, ${2:options_string})"
+    ]
+  }
+}

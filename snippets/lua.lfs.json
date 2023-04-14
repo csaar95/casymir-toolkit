@@ -1,0 +1,151 @@
+{
+  "_setup": {
+    "prefix": "require lfs",
+    "description": [
+      "Include LuaFilesystem module",
+      ""
+    ],
+    "body": [
+      "local lfs = require('lfs')"
+    ]
+  },
+  "lfs.attributes": {
+    "prefix": "lfs.attributes",
+    "description": [
+      "Returns a table with the file attributes corresponding to `filepath` or nil",
+      "  - `request_name`: Only the value of the named attribute is returned",
+      "  - `result_table`: Filled with attributes and returned instead of a new table",
+      ""
+    ],
+    "body": [
+      "lfs.attributes(${1:filepath}${2:, ${3:request_name/result_table}})"
+    ]
+  },
+  "lfs.chdir": {
+    "prefix": "lfs.chdir",
+    "description": [
+      "Changes the current working directory to the given `path`",
+      ""
+    ],
+    "body": [
+      "lfs.chdir(${1:path})"
+    ]
+  },
+  "lfs.currentdir": {
+    "prefix": "lfs.currentdir",
+    "description": [
+      "Returns the current working directory",
+      ""
+    ],
+    "body": [
+      "lfs.currentdir()"
+    ]
+  },
+  "lfs.dir": {
+    "prefix": "lfs.dir",
+    "description": [
+      "Lua iterator over the entries of a given directory",
+      ""
+    ],
+    "body": [
+      "lfs.dir(${1:path})"
+    ]
+  },
+  "lfs.link": {
+    "prefix": "lfs.link",
+    "description": [
+      "Creates a hard or a symbolic link",
+      "  - `symlink`: boolean (Default: false)",
+      ""
+    ],
+    "body": [
+      "lfs.link(${1:old}, ${2:new}${3:, ${4:symlink}})"
+    ]
+  },
+  "lfs.lock": {
+    "prefix": "lfs.lock",
+    "description": [
+      "Locks a file or a part of it",
+      "  - `mode`: 'r' (for a read/shared lock) or 'w' (for a write/exclusive lock)",
+      "  - `start`/`length`: Specify a starting point and its length",
+      ""
+    ],
+    "body": [
+      "lfs.lock(${1:filehandle}, ${2:mode}${3:, ${4:start}${5:, ${6:length}}})"
+    ]
+  },
+  "lfs.lock_dir": {
+    "prefix": "lfs.lock_dir",
+    "description": [
+      "Creates a lockfile (`lockfile.lfs`) in `path`",
+      "To free the the lock call `lock:free()`",
+      ""
+    ],
+    "body": [
+      "lfs.lock_dir(${1:path}${2:, ${3:seconds_stale}})"
+    ]
+  },
+  "lfs.mkdir": {
+    "prefix": "lfs.mkdir",
+    "description": [
+      "Creates a new directory",
+      ""
+    ],
+    "body": [
+      "lfs.mkdir(${1:dirname})"
+    ]
+  },
+  "lfs.rmdir": {
+    "prefix": "lfs.rmdir",
+    "description": [
+      "Removes an existing directory",
+      ""
+    ],
+    "body": [
+      "lfs.rmdir(${1:dirname})"
+    ]
+  },
+  "lfs.setmode": {
+    "prefix": "lfs.setmode",
+    "description": [
+      "Sets the writing mode for a file",
+      ""
+    ],
+    "body": [
+      "lfs.setmode(${1:file}, ${2|'binary','text'|})"
+    ]
+  },
+  "lfs.symlinkattributes": {
+    "prefix": "lfs.symlinkattributes",
+    "description": [
+      "Identical to `lfs.attributes` except that it obtains information about the link itself",
+      ""
+    ],
+    "body": [
+      "lfs.symlinkattributes(${1:filepath}${2:, ${3:request_name}})"
+    ]
+  },
+  "lfs.touch": {
+    "prefix": "lfs.touch",
+    "description": [
+      "Set access and modification times of a file",
+      "  - `atime`: Access time",
+      "  - `mtime`: Modification time",
+      ""
+    ],
+    "body": [
+      "lfs.touch(${1:filepath}${2:, ${3:atime}${4:, ${5:mtime}}})"
+    ]
+  },
+  "lfs.unlock": {
+    "prefix": "lfs.unlock",
+    "description": [
+      "Unlocks a file or a part of it",
+      "  - `start`/`length`: Specify a starting point and its length",
+      ""
+    ],
+    "body": [
+      "lfs.unlock(${1:filehandle}${2:, ${3:start}${4:, ${5:length}}})"
+    ]
+  }
+}

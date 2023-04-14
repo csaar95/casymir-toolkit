@@ -1,0 +1,82 @@
+{
+  "_setup": {
+    "prefix": "require setup",
+    "description": [
+      "Include setup module",
+      ""
+    ],
+    "body": [
+      "require('setup')"
+    ]
+  },
+  "setup.ask1": {
+    "prefix": "setup.ask1",
+    "description": [
+      "Interaktive Abfrage, gibt den eingegebenen Wert zurück",
+      ""
+    ],
+    "body": [
+      "setup.ask1(${1:prompt}${2:, ${3:level}})"
+    ]
+  },
+  "setup.file_exists": {
+    "prefix": "setup.file_exists",
+    "description": [
+      "Test, ob eine Datei existiert",
+      ""
+    ],
+    "body": [
+      "setup.file_exists(${1:path})"
+    ]
+  },
+  "setup.load": {
+    "prefix": "setup.load",
+    "description": [
+      "Laden einer Konfigurationsdatei",
+      ""
+    ],
+    "body": [
+      "setup.load(${1:setup_xml_filename})"
+    ]
+  },
+  "setup.run": {
+    "prefix": "setup.run",
+    "description": [
+      "Konfigurationsdateneditor",
+      ""
+    ],
+    "body": [
+      "setup.run(${1:setup_conf}, ${2:setup_data})"
+    ]
+  },
+  "setup.save": {
+    "prefix": "setup.save",
+    "description": [
+      "Speichern einer Konfigurationsdatei",
+      ""
+    ],
+    "body": [
+      "setup.save(${1:setup_data}, ${2:setup_xml_filename})"
+    ]
+  },
+  "setup.value": {
+    "prefix": "setup.value",
+    "description": [
+      "Konfigurationswert abfragen",
+      ""
+    ],
+    "body": [
+      "setup.value(${1:setup_data}, ${2:key})"
+    ]
+  },
+  "setup.whoami": {
+    "prefix": "setup.whoami",
+    "description": [
+      "Rückgabe von Pfad und Skriptname",
+      ""
+    ],
+    "body": [
+      "setup.whoami()"
+    ]
+  }
+}

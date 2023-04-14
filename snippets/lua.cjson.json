@@ -1,0 +1,111 @@
+{
+  "_cjson": {
+    "prefix": "require cjson",
+    "description": [
+      "Include Lua-CJSON module",
+      ""
+    ],
+    "body": [
+      "local cjson = require('cjson')"
+    ]
+  },
+  "cjson.decode": {
+    "prefix": "cjson.decode",
+    "description": [
+      "Decode JSON string",
+      ""
+    ],
+    "body": [
+      "cjson.decode(${1:json_string})"
+    ]
+  },
+  "cjson.decode_invalid_numbers": {
+    "prefix": "cjson.decode_invalid_numbers",
+    "description": [
+      "Accept and decode invalid numbers, or throw an error",
+      "(Default: true)",
+      ""
+    ],
+    "body": [
+      "cjson.decode_invalid_numbers(${1|true,false|})"
+    ]
+  },
+  "cjson.decode_max_depth": {
+    "prefix": "cjson.decode_max_depth",
+    "description": [
+      "Maximum decoding array/object depth",
+      "(Default: 1000)",
+      ""
+    ],
+    "body": [
+      "cjson.decode_max_depth(${1:depth})"
+    ]
+  },
+  "cjson.encode": {
+    "prefix": "cjson.encode",
+    "description": [
+      "Encode lua table",
+      ""
+    ],
+    "body": [
+      "cjson.encode(${1:lua_table})"
+    ]
+  },
+  "cjson.encode_invalid_numbers": {
+    "prefix": "cjson.encode_invalid_numbers",
+    "description": [
+      "Representation of invalid numbers",
+      "(Default: false)",
+      ""
+    ],
+    "body": [
+      "cjson.encode_invalid_numbers(${1|true,'null',false|})"
+    ]
+  },
+  "cjson.encode_keep_buffer": {
+    "prefix": "cjson.encode_keep_buffer",
+    "description": [
+      "Reuse the JSON encoding buffer",
+      "(Default: true)",
+      ""
+    ],
+    "body": [
+      "cjson.encode_keep_buffer(${1|true,false|})"
+    ]
+  },
+  "cjson.encode_max_depth": {
+    "prefix": "cjson.encode_max_depth",
+    "description": [
+      "Maximum ecoding array/object depth",
+      "(Default: 1000)",
+      ""
+    ],
+    "body": [
+      "cjson.encode_max_depth(${1:depth})"
+    ]
+  },
+  "cjson.encode_number_precision": {
+    "prefix": "cjson.encode_number_precision",
+    "description": [
+      "Amount of significant digits, between 1 and 14",
+      "(Default: 14)",
+      ""
+    ],
+    "body": [
+      "cjson.encode_number_precision(${1:precision})"
+    ]
+  },
+  "cjson.encode_sparse_array": {
+    "prefix": "cjson.encode_sparse_array",
+    "description": [
+      "Encode sparse Lua arrays as JSON arrays using JSON null for the missing entries",
+      "  - `convert`: boolean (Default: false)",
+      "  - `ratio`: boolean (Default: 2)",
+      "  - `safe`: boolean (Default: 10)",
+      ""
+    ],
+    "body": [
+      "cjson.encode_sparse_array(${1|true,false|}${2:, ${3:ratio}}${4:, ${5:safe}})"
+    ]
+  }
+}
