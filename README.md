@@ -40,7 +40,7 @@ https://support.casymir.ch/wiki/doku.php?id=support:casymir_intern:tooldoc:lua:g
 - `sys.opg_mt_*` ausgelassen
 
 # casymir-toolkit README
-
+<!-- 
 This is the README for your extension "casymir-toolkit". After writing up a brief description, we recommend including the following sections.
 
 ## Features
@@ -103,4 +103,4 @@ Added features X, Y, and Z.
 * [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
+**Enjoy!** -->
